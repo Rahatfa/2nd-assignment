@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size: 50px;
+    padding-left: 30px;
+
+}
+h4{
+    margin-left: 5px;
+
+}
+img{
+    width: 100%
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 25px 50px;
+    padding: 3px;
+
+}
+p{
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.live-btn{
+    text-decoration: none;
+    margin: 30px 30px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+/* header ends */
+
+.middle-part{
+    display: flex;
+}
+
+.button{
+    background-color: rgb(15, 14, 14);
+    border: 2px solid black;
+    color: black;
+    padding: 12px;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 90px 50px;
+    padding: 40px;
+    border-radius: 5px;
+    
+}
+
+button{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 800;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor:pointer
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+    font-size: 15px;
+    
+    
+}
+
+.blog{
+    width: 324px;
+    height: 362px;
+    left: 476px;
+    top: 826px;
+    border: 1px solid #d0c8c8;
+    margin: 10px 20px 10px;
+    border-radius: 5px;
+    height: 98%
+}
+
+.blog-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(71, 93, 112);
+}
+
+
