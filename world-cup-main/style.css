@@ -10,11 +10,21 @@ h4{
     margin-left: 5px;
 
 }
+a{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(65, 63, 63);
+    border-radius: 5px;
+    margin:10px;
+    padding: 3px;
+}
 img{
     width: 100%
 }
 .header{
     display: flex;
+    height: 400px;
     background-color: black;
     color: white;
     border-radius: 15px;
@@ -54,6 +64,9 @@ p{
     border-radius: 5px;
     
 }
+.upcoming{
+    display: none;
+}
 
 button{
     margin-top: 10px;
@@ -73,6 +86,25 @@ button{
     
     
 }
+.flags{
+    text-align: center;
+    border: 1px solid ;
+    height: 150px;
+    padding: 40px;
+}
+
+.flag{
+    display: flex;    
+}
+p{
+    font-size: 15px;
+    color: rgb(110, 117, 123);
+
+}
+.gap{
+    margin: 25px;
+    font-weight: bold;
+}
 
 .blog{
     width: 324px;
@@ -85,6 +117,7 @@ button{
     height: 98%
 }
 
+
 .blog-detail{
     display: flex;
     align-items: center;
@@ -92,4 +125,50 @@ button{
     color: rgb(71, 93, 112);
 }
 
+.end{
+    height: 300px;
+    background-color: black;
+}
+.foter-h{
+    color: white;
+    text-align: center;
+}
+.break{
+    color: azure;
+    width: 75%;
+    text-align: center;
+}
+.footer1{
+    text-align: center;
 
+}
+.footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    color: rgb(181, 176, 169);
+}
+
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+}
